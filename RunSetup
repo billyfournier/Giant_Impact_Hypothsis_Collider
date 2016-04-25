@@ -1,0 +1,136 @@
+Initial positions of the bodies in kilometers from the origin:
+
+InitialPosition1.x = 0.0;
+InitialPosition1.y = 0.0;
+InitialPosition1.z = 0.0;
+
+InitialPosition2.x = 0.0;
+InitialPosition2.y = 0.0;
+InitialPosition2.z = 0.0;
+
+Initial velocities of the bodies in kilometers per second:
+
+InitialVelocity1.x = 0.0;
+InitialVelocity1.y = 0.0;
+InitialVelocity1.z = 0.0;
+
+InitialVelocity2.x = 0.0;
+InitialVelocity2.y = 0.0;
+InitialVelocity2.z = 0.0;
+
+Initial spin direction vectors and angular velocity in revolutions per hour of the bodies:
+
+InitialSpin1.x = 0.0;
+InitialSpin1.y = 1.0;
+InitialSpin1.z = 0.0;
+InitialSpin1.w = 0.45;
+
+InitialSpin2.x = 0.0;
+InitialSpin2.y = 1.0;
+InitialSpin2.z = 0.0;
+InitialSpin2.w = 0.45;
+
+Total mass of bodies in fraction of the Earths mass: 
+
+FractionEarthMassOfBody1 = 0.6;
+FractionEarthMassOfBody2 = 0.6;
+
+Fraction of iron and silicate makeup of the bodies:
+
+FractionFeBody1 = 0.2;
+FractionSiBody1 = 0.8;
+FractionFeBody2 = 0.2;
+FractionSiBody2 = 0.8;
+
+Damping rate used in creating the bodies:
+
+DampRateBody1 = 8.0;
+DampRateBody2 = 8.0;
+
+Kenetic energy target value used in creating bodies:
+
+EnergyTargetBody1 = 13.0;
+EnergyTargetBody2 = 13.0;
+
+The total number of elements used in the simulation 512, 1024, 2048, 4096, 8192, 16384, 32768, 65536, 131072, 262144, 524288:
+
+N = 16384;
+
+The time parameters in hours (The total run time does not include the setup times):
+
+TotalRunTime = 0.0;
+DampTime = 20.0;
+DampRestTime = 30.0;
+EnergyAdjustmentTime = 0.0;
+EnergyAdjustmentRestTime = 0.0;
+SpinRestTime = 30.0;
+
+The time between force/move calculations in fraction of the runs time unit:
+
+Dt = 0.002;
+
+Flag set to determine if we are recording positions and velocities to a file (1 record) (0 do not record)
+
+WriteToFile = 1;
+
+The record rate given in number of force/move calculations between recording positions and velocities to storage:
+
+RecordRate = 50;
+
+Density of iron and silicate material in kilograms per kilometer cubed:
+
+DensityFe = 7.850e12;
+DensitySi = 3.320e12;
+
+Repultion strengths of the elements in kilograms*kilometersE-1*secondsE-2:
+
+KFe = 1.5e14;
+KSi = 1.5e14;
+
+Fraction reduction of the element repultion forces:
+
+KRFe = 0.01;
+KRSi = 0.01;
+
+Shell depth as a fraction of the elements diameter:
+
+SDFe = 0.01;
+SDSi = 0.001;
+
+Draw settings how often it draws to the screen and what quality
+
+DrawRate = 50;
+DrawQuality = 2;
+
+Do you want to run on multiple GPUs if they are available 0 for no 1 for yes
+
+UseMultipleGPU = 1;
+
+Universal gravitational constant in kilometersE3 kilogramsE-1 and secondsE-2
+
+UniversalGravity = 6.67408e-20;
+
+The total mass of the Earth in kilograms
+
+MassOfEarth = 5.97219e24;
+
+The Total mass or the Moon in Kilograms
+
+MassOfMoon = 7.34767309e22;
+
+Total angular Momentun of the Earth-Moon system in kilograms(kilometers^2)/seconds
+
+AngularMomentumEarthMoonSystem = 3.4738e28;
+
+Axial tilt of Earth off Ecliptic plane in degrees
+
+EarthAxialTilt = 23.439281;
+
+Axial tilt of The Moon off Ecliptic plane in degrees
+
+MoonAxialTilt = 1.5424;
+
+A good value of Pi
+
+Pi = 3.14159265359; 
+

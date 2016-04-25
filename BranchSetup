@@ -1,0 +1,38 @@
+Branch positions of the bodies in kilometers from the origin:
+
+BranchPosition1.x = 44500.0;
+BranchPosition1.y =  1000.0;
+BranchPosition1.z = 200.0;
+
+BranchPosition2.x = -44500.0;
+BranchPosition2.y = -1000.0;
+BranchPosition2.z = -200.0;
+
+Branch velocities of the bodies in kilometers per second:
+
+BranchVelocity1.x = -11.0;
+BranchVelocity1.y = 0.0;
+BranchVelocity1.z = 0.0;
+
+BranchVelocity2.x = 11.0;
+BranchVelocity2.y = 0.0;
+BranchVelocity2.z = 0.0;
+
+Branch spin direction vectors and angular velocity in revolutions per hour of the bodies:
+
+BranchSpin1.x = 0.0;
+BranchSpin1.y = 0.0;
+BranchSpin1.z = 1.0;
+BranchSpin1.w = 0.0;
+
+BranchSpin2.x = 0.0;
+BranchSpin2.y = 0.0;
+BranchSpin2.z = 1.0;
+BranchSpin2.w = 0.0;
+
+The time parameters in hours:
+
+BranchSpinRestTime = 0.0;
+BranchTime = 300.0;
+
+
